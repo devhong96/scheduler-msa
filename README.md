@@ -1,36 +1,36 @@
-# Scheduler-MSA
+# 📅 Scheduler-MSA
+
+**각 교사와 학생의 시간대 별 수강신청 어플리케이션**
 
 ---
-## 개요
 
-각 교사와 학생의 시간대 별 수강신청 어플리케이션
+## 📌 개요
 
------
+교사와 학생의 시간대 정보를 기반으로 수업을 예약하고 관리할 수 있는 수강 신청 시스템입니다. 
 
-## 사용 기술
+마이크로서비스 아키텍처(MSA)를 적용하여 유연하고 확장 가능한 구조로 설계되었습니다.
 
-- Spring: Spring Framework, Spring Data JPA, QueryDSL
-
-
-- Security: Spring Security, JWT
-
-
-- Cloud: Spring Cloud (Config Server, Eureka)
-
-
-- Messaging: Kafka, RabbitMQ, Redis
 ---
 
-- Monitoring: Prometheus, Grafana
+## 🛠️ 사용 기술
 
+### 🧱 Framework
+- **Spring**: Spring Framework, Spring Data JPA, QueryDSL
+- **Security**: Spring Security, JWT
 
-- Containerization: Docker, Docker Compose
+### ☁️ Cloud & Messaging
+- **Spring Cloud**: Config Server, Eureka
+- **Messaging**: Kafka, RabbitMQ, Redis
 
+### 🔍 Monitoring
+- **Prometheus**, **Grafana**
 
-- CI/CD: GitHub Actions
+### 🐳 Containerization & CI/CD
+- **Docker**, **Docker Compose**
+- **CI/CD**: GitHub Actions
 
-
-- Infrastructure: Synology NAS (개인용, MSA 환경 구축)
+### 🖥️ Infrastructure
+- **Synology NAS** (개인 서버 기반 MSA 환경 구축)
 
 
 ---
